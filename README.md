@@ -7,7 +7,7 @@
 * [03_imageMMOPPreparation.py](03_imageMMOPPreparation.py): Script that uses prior created image list to build MMOP Database
 
 ### How to use
-00. * [config.py](config.py)
+00. [config.py](config.py)
 * See below the different parameters separated by to which part of the pipeline apply 
 
 01. [01_imageExtraction.py](01_imageExtraction.py)
@@ -40,6 +40,5 @@
 * *preprocessing*: if true then preprocessed imgs will be used from the filtered img list (looks for keyword "_resliced")
 * *suffixToCreateDatabaseFrom*: filename suffix to identify files to convert (currently only supports "nii.gz")
 
-### Addtional notes
 
 
